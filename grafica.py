@@ -1,12 +1,12 @@
 import matplotlib.pyplot as plt
 
 plt.figure()
-data_1 = np.loadtxt("dt1_explicito.dat")
-data_2 = np.loadtxt("dt2_explicito.dat")
-data_3 = np.loadtxt("dt3_explicito.dat")
-data_4 = np.loadtxt("dt1_implicito.dat")
-data_5 = np.loadtxt("dt2_implicito.dat")
-data_6 = np.loadtxt("dt3_implicito.dat")
+data_1 = np.loadtxt("dx1_explicito.dat")
+data_2 = np.loadtxt("dx2_explicito.dat")
+data_3 = np.loadtxt("dx3_explicito.dat")
+data_4 = np.loadtxt("dx1_implicito.dat")
+data_5 = np.loadtxt("dx2_implicito.dat")
+data_6 = np.loadtxt("dx3_implicito.dat")
 
 x1_e= data_1[:,0]
 y1_e= data_1[:,1]
