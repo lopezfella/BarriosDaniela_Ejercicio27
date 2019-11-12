@@ -2,6 +2,8 @@
 #include <fstream>
 using namespace std;
 
+*/guiado del respositorio del profesor*/
+
 void explicito(float w, float x0, float xf, float dx, string filename);
 void implicito(float w, float x0, float xf, float dx, string filename);
 
