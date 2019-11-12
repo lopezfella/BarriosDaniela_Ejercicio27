@@ -1,4 +1,4 @@
-all: dt1_explicito.dat dt2_explicito.dat dt3_explicito.dat dt1_implicito.dat dt2_implicito.dat dt3_implicito.dat
+all: dx1_explicito.dat dx2_explicito.dat dx3_explicito.dat dx1_implicito.dat dx2_implicito.dat dx3_implicito.dat
 
 %.dat: ejercicio27.x
 	./ejercicio27.x
